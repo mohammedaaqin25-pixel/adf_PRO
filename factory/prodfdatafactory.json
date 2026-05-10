@@ -1,0 +1,15 @@
+{
+	"name": "prodfdatafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e0857f64-eecf-4319-ba78-2a3bf9ee4ffe",
+		"tenantId": "bee18462-128d-44f5-abc9-8add0465ed8b"
+	}
+}
