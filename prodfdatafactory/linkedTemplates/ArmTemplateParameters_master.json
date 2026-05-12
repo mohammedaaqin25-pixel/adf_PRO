@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "prodfdatafactory"
+		},
+		"ls_database_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_system_design_accountKey": {
+			"value": ""
+		},
+		"ls_database_properties_typeProperties_server": {
+			"value": "prodfserver.database.windows.net"
+		},
+		"ls_database_properties_typeProperties_database": {
+			"value": "prodfdb"
+		},
+		"ls_database_properties_typeProperties_userName": {
+			"value": "munna.admin"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://prodfstorage.dfs.core.windows.net/"
+		},
+		"ls_rest_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"ls_system_design_properties_typeProperties_url": {
+			"value": "https://prodfstorage.dfs.core.windows.net/"
+		},
+		"Schedule_properties_pipeline1_parameters_schema": {
+			"value": "source"
+		},
+		"Schedule_properties_pipeline1_parameters_table": {
+			"value": "Orders"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
